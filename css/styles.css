@@ -62,4 +62,5 @@ figure:nth-child(3n) {
 figure img {
   display: block;
   width: 265px;
+  margin-bottom: 1px;
 }
