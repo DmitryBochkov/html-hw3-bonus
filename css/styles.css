@@ -64,3 +64,13 @@ figure img {
   width: 265px;
   margin-bottom: 1px;
 }
+
+/*FOOTER*/
+footer div {
+  font-size: 10px;
+  line-height: 1.2;
+  width: 180px;
+  margin: 133px auto 30px;
+  text-align: center;
+  padding: 0 0 0 8px;
+ }
