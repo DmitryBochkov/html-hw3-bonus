@@ -1,0 +1,48 @@
+*,
+:before,
+:after {
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+body {
+  background: #000000 url(../img/background.png) center top no-repeat;
+  color: #e6e6e6;
+  font-family: Tahoma, sans-serif;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.container {
+  width: 820px;
+  margin: 0 auto;
+}
+/*HEADER*/
+header {
+  margin: 56px 0 0 0;
+}
+.logo {
+  display: block;
+  width: 266px;
+  float: left;
+}
+.contacts {
+  float: right;
+  margin: 93px 3px 0 0;
+  font-size: 10px;
+  line-height: 1.2;
+}
+.contact-us {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.contacts a {
+  text-decoration: none;
+  color: inherit;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
