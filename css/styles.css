@@ -63,8 +63,19 @@ figure img {
   display: block;
   width: 265px;
   margin-bottom: 1px;
+  opacity: 0.85;
 }
-
+figure a {
+  display: block;
+  text-decoration: none;
+  color: #e6e6e6;
+}
+figure a:hover {
+  color: #d6d2d2;
+}
+figure a:hover img {
+  opacity: 1;
+}
 /*FOOTER*/
 footer div {
   font-size: 10px;
